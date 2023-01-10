@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <title>DATA COLLECTION</title>
+</head>
+<body style ="background-color: blanchedalmond;">
+    <h3>Fill the following information</h3>
+    <form  action="" method="post" novalidate autocomplete="on"> 
+        <label for="name ">Enter the name:</label>
+        <input type="text" name="user name" id="name" value="john" readonly><br>
+        <label for="dob">Enter the Date of birth:</label>
+        <input type="date" name="user dob" id="dob" min="2000-01-01" max="2050-01-01" autofocus><br>
+        <label> Enter the phone number:</label><br>
+        <input pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="123-456-789" maxlength="10"><br>
+    </form>
+    <form>
+        <label>choose among them:</label><br>
+        <input type="radio" >
+        <label>html</label><br>
+        <input type="radio"  >
+        <label>css</label><br>
+        <input type="radio"  >
+        <label>javascript</label><br>
+        <input type="button" onclick="alert('this form is submitted')" value ="click to subhimt!"></button>
+    </form>
+    
+</body>
+</html>
